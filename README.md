@@ -7,7 +7,7 @@
 > **训练思维，编码未来。**  
 > 一款面向 AI 时代的可视化计算思维训练平台。拆解逻辑、AI 导师陪练、分享思维路径。
 
-[在线演示](https://your-demo-link.com) · [开发文档](https://docs.mindcode.dev) · [问题反馈](https://github.com/yourusername/mindcode/issues)
+[在线演示](https://mindcode.top) · [开发文档](https://docs.mindcode.dev) · [问题反馈](https://github.com/BofanZhou/mindcode/issues)
 
 ![MindCode 截图](https://your-screenshot-url.png)
 
