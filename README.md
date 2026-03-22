@@ -6,6 +6,7 @@
 
 > **训练思维，编码未来。**  
 > 一款面向 AI 时代的可视化计算思维训练平台。拆解逻辑、AI 导师陪练、分享思维路径。
+- "在 AI 能写代码的时代，思维方式才是你唯一不可替代的核心竞争力。"
 
 [在线演示](https://mindcode.top) · [开发文档](https://docs.mindcode.dev) · [问题反馈](https://github.com/BofanZhou/mindcode/issues)
 
@@ -66,3 +67,48 @@ cp .env.example .env.local
 
 # 运行开发服务器
 npm run dev
+```
+
+## 💻 技术栈
+
+| 类别      | 技术                                                       | 说明                     |
+| ------- | -------------------------------------------------------- | ---------------------- |
+| **框架**  | [Next.js 14](https://nextjs.org/)                        | App Router、服务端组件       |
+| **样式**  | [Tailwind CSS](https://tailwindcss.com/)                 | 原子化 CSS + CSS 变量主题     |
+| **画布**  | [ReactFlow](https://reactflow.dev/)                      | 节点式图形编辑器               |
+| **数据库** | [Supabase](https://supabase.com/)                        | PostgreSQL + 实时订阅 + 认证 |
+| **AI**  | [OpenAI](https://openai.com/)                            | GPT-4o-mini 节点级陪练      |
+| **动画**  | [Framer Motion](https://www.framer.com/motion/)          | 布局过渡与手势                |
+| **导出**  | [html-to-image](https://github.com/bubkoo/html-to-image) | 画布截图生成                 |
+| **图标**  | [Heroicons](https://heroicons.com/)                      | 线性图标库                  |
+
+---
+
+## 🎯 路线图
+- [x] Phase 1: 设计系统与核心画布
+- [x] Phase 2: 布局框架与响应式外壳
+- [x] Phase 3: 社区功能与导出系统
+- [ ] Phase 4: 实时协作（Yjs + WebRTC）
+- [ ] Phase 5: 模板市场与 Pro 订阅
+- [ ] Phase 6: MindCode DSL（领域专用语言）
+
+---
+
+## 🤝 参与贡献
+我们欢迎各种形式的贡献！
+- Fork 本仓库
+- 创建特性分支 (git checkout -b feature/AmazingFeature)
+- 提交改动 (git commit -m 'Add some AmazingFeature')
+- 推送到分支 (git push origin feature/AmazingFeature)
+- 创建 Pull Request
+- 详情请参阅 CONTRIBUTING.md。
+
+---
+
+## 🙏 致谢
+- ReactFlow 提供强大的节点编辑器
+- Supabase 提供开源 Firebase 替代方案
+- Tailwind Labs 提供原子化 CSS 框架
+- Vercel 提供边缘部署与 Serverless 支持
+- 独立开发者社区提供的宝贵反馈和功能建议
+---
