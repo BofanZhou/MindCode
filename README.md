@@ -68,6 +68,41 @@ cp .env.example .env.local
 # 运行开发服务器
 npm run dev
 ```
+---
+## 🏗️ 项目结构
+
+- **app/** — Next.js 14 App Router
+  - **(main)/** — 主应用路由（带侧边栏布局）
+    - **workbench/** — 画布编辑页
+    - **community/** — 社区发现与分享
+    - **profile/** — 用户主页与统计
+    - **templates/** — 模板市场
+  - **api/** — API 路由（AI、导出等）
+  - **layout.tsx** — 根布局（含主题 Provider）
+
+- **components/**
+  - **ui/** — 设计系统（Button、Card、Input、Avatar）
+  - **layout/** — 布局组件（Sidebar、AI Panel）
+  - **canvas/** — ReactFlow 封装与自定义节点
+  - **mobile/** — 移动端专用（CollapsibleHeader）
+  - **export/** — 导出弹窗与抽屉
+  - **community/** — 动态卡片、评论、筛选器
+
+- **hooks/**
+  - **useExport.ts** — PNG/SVG/Markdown/PDF 导出逻辑
+  - **useAIChat.ts** — OpenAI 流式对话集成
+  - **useLayout.ts** — 侧边栏折叠状态
+
+- **lib/**
+  - **utils.ts** — cn() 工具函数
+  - **export/** — 各格式导出生成器
+  - **constants.ts** — 示例流程、主题 Token
+
+- **types/**
+  - **index.ts** — TypeScript 类型定义
+
+- **public/** — 静态资源
+---
 
 ## 💻 技术栈
 
